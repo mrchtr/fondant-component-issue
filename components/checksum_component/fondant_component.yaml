@@ -1,0 +1,13 @@
+name: Checksum component
+description: Checksum component
+image: checksum_component:latest
+
+consumes:
+    sequence:
+        type: string
+
+produces:
+    sequence:
+        type: string
+    sequence_checksum:
+        type: string
