@@ -1,0 +1,1 @@
+/.fondant/test_pipeline/test_pipeline-20240415111731/biopython_component/manifest.json

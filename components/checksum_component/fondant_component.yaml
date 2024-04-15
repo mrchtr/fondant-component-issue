@@ -7,7 +7,5 @@ consumes:
         type: string
 
 produces:
-    sequence:
-        type: string
     sequence_checksum:
         type: string

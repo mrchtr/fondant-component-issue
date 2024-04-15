@@ -9,10 +9,5 @@ consumes:
         type: string
 
 produces:
-    sequence:
-        type: string
     sequence_length:
         type: int64
-    sequence_checksum:
-        type: string
-

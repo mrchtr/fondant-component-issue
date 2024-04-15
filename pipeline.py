@@ -32,22 +32,14 @@ dataset = pipeline.read(
 )
 
 dataset = dataset.apply(
-	"./components/checksum_component",
-).apply(
 	"./components/biopython_component",
 ).apply(
-	"./components/other_component",
+	"./components/checksum_component",
 )
 
 dataset = dataset.write(
 	"write_to_file",
 	arguments={
-		"path":"/data"
-	},
-	consumes={
-		"sequence": "sequence",
-		"molecular_weight": "molecular_weight",
-		"sequence_checksum": "sequence_checksum",
-		"sequence_length": "sequence_length"
+		"path":"/data/export"
 	},
 )

@@ -7,7 +7,5 @@ consumes:
         type: string
 
 produces:
-    sequence:
-        type: string
     molecular_weight:
         type: float64
